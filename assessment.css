@@ -1,0 +1,38 @@
+/*
+実際のソフトウェアのような機能を作りこむことなく見た目だけを作ったものを、「モックアップ」とよぶ。
+
+まずモックアップで作成した要素をHTMLに記述し、CSSで見た目を整えていく。
+
+このような、利用者が直接触れる部分のことを、「ユーザーインターフェース(User Interface)」といい、略して「UI」と呼ぶ。
+
+
+*/
+
+body {
+  background: #04a6eb;
+  color: #fdffff;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*
+width(ウィドス、ウィズ):幅
+
+幅を500pxに、右側のマージンと左側のマージンを自動調節に設定している。
+*/
+
+button {
+  padding: 5px 20px;
+  background-color: #337ab7;
+  border-style: none;
+  color: #fdffff;
+}
+/*
+padding(パディング):要素の内側の余白を設定するプロパティ
+
+ボタンの上下の余白を5px、左右の余白を20pxに、背景の色、境界線のスタイルを表示なしに設定している。
+*/
+
+input {
+  height: 25px;
+}
